@@ -17,6 +17,7 @@ class Gear
   end
 end
 
+
 class Wheel
   attr_reader :rim, :tire
 
