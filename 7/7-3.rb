@@ -33,7 +33,7 @@ class Bicycle
   end
 end
 
-class Vehcle
+class Viehcle
   include Schedulable
 
   def lead_days
@@ -56,7 +56,7 @@ ending = Date.parse("2015/9/10")
 b = Bicycle.new
 p b.schedulable?(starting, ending)
 
-v = Vehcle.new
+v = Viehcle.new
 p v.schedulable?(starting, ending)
 
 m = Mechanic.new
